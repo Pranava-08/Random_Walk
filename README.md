@@ -1,2 +1,2 @@
 # Random_Walk
- Random walk is a very useful study this code simulates it
+ Random walks serve as versatile models to describe stochastic processes, ranging from the random motion of particles in Brownian motion to the statistical behavior of complex systems, providing valuable insights into the probabilistic nature of physical phenomena. this code simulates it.
