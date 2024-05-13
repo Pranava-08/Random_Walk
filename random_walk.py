@@ -13,22 +13,13 @@ def Rand_colour():
 
 
 def random_walk(g):
-    k = [1, 2, 3, 4]
     oogway.speed(0)
     oogway.pensize(15)
     for i in range(g):
         oogway.pencolor(Rand_colour())
-        p = random.choice(k)
-        if p == 1:
-            oogway.forward(30)
-        elif p == 2:
-            oogway.backward(30)
-        elif p == 3:
-            oogway.right(90)
-            oogway.forward(30)
-        elif p == 4:
-            oogway.left(90)
-            oogway.forward(30)
+        p = random.randint(0,360)
+        oogway.setheading(p)
+        oogway.forward(30)
 
 
 random_walk(250)
